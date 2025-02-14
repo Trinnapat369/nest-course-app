@@ -10,17 +10,22 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/showname')//lo
-  showName(): string {
-    return this.appService.getName();
-  }
+  // @Get('/showname')//lo
+  // showName(): string {
+  //   return this.appService.getName();
+  // }
   
-  @Get('/showInformation')//lo
-  showInfo(): string {
-    return this.appService.getInfo();
-  }
-  @Get('/showjson')
-  getJSON(){
-    return this.appService.getJson();
+  // @Get('/showInformation')//lo
+  // showInfo(): string {
+  //   return this.appService.getInfo();
+  // }
+  // @Get('/showjson')
+  // getJSON(){
+  //   return this.appService.getJson();
+  // }
+
+  @Get('/showGit')
+  getGit(): string {
+    return this.appService.getGit();
   }
 }

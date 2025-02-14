@@ -22,7 +22,7 @@ export class AppService {
   // }
 
   getGit(): string {
-    return 'git and github using';
+    return 'git and github using.';
   }
 
 
